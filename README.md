@@ -1,1 +1,2 @@
 # suzie-speaks
+* 'yarn dist'

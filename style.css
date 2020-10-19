@@ -1,0 +1,35 @@
+body {
+  font-size: 16px;
+  font-family: monospace;
+  padding: 0.5em;
+}
+
+.full {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  width: 100%;
+  height: calc(100vh - 5em);
+  border: 1px solid black;
+  outline: none;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  padding: 0.5em;
+  font-size: 16px;
+  font-family: monospace;
+  cursor: pointer;
+  outline: none;
+}
+
+button:active {
+  color: white;
+  background: black;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Suzie-Speak",
+  "version": "1.0.0",
+  "description": "I.A. Suzie text to speech",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "Suzie-Speaks",
+    "mac": {
+      "category": "speech"
+    }
+  },
+  "repository": "https://github.com/lmccart/suzie-speaks",
+  "author": "lmccart",
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-builder": "^22.9.1"
+  }
+}
